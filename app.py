@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 load_dotenv()
 
 llm = init_chat_model(
-    "meta-llama/llama-4-scout-17b-16e-instruct",
+    "deepseek-r1-distill-llama-70b",
     model_provider="groq"
 )
 
